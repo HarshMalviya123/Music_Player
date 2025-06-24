@@ -1,0 +1,120 @@
+body{
+    margin:0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('C:/Users/kirta/Downloads/Music Player/pexels-daniel-reche-718241-3721941.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.song{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:10px 10px;
+}
+.song-picture{
+    background-color:grey;
+    border:5px solid white;
+    height:70vh;
+    width:50vw;
+    opacity:0.8;
+}
+.song-details{
+    color:antiquewhite;
+    height:10vh;
+    width:50vw;
+}
+.controls{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height:10vh;
+    width:50vw;
+}
+
+.ctrl{
+    margin:8px;
+    height:5vh;
+    width:5vw;
+    border:2px solid black;
+    border-radius: 50%;
+}
+#progress{
+    width:50vw;
+}
+.song_{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    height:10vh;
+    width:30vw;
+    background-color:grey;
+    padding:5px 10px;
+}
+.song_list{
+    height:100vh;
+    background-color: grey;
+    border:5px solid white;
+}
+.song_play{
+    margin-left: 10rem;
+}
+.song1_img{
+    background-image: url('C:/Users/kirta/Downloads/Music Player/Music_Player/song-1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:9vh;
+    width:10vw;
+}
+.song2_img{
+    background-image: url('C:/Users/kirta/Downloads/Music Player/Music_Player/song-2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:9vh;
+    width:10vw;
+}
+.song3_img{
+    background-image: url('C:/Users/kirta/Downloads/Music Player/Music_Player/song-3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:9vh;
+    width:10vw;
+}
+.song4_img{
+    background-image: url('C:/Users/kirta/Downloads/Music Player/Music_Player/song-4.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:9vh;
+    width:10vw;
+}
+.song5_img{
+    background-image: url('C:/Users/kirta/Downloads/Music Player/Music_Player/song-5.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:9vh;
+    width:10vw;
+}
+
+.volume{
+    display:flex;
+    align-items: center;
+    justify-content: end;
+}
+#vol_up{
+    margin:10px;   
+}
+.song-picture img{
+    height:100%;
+    width:100%;
+    object-fit:contain;
+}
+

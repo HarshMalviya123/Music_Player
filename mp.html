@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mp.css">
+</head>
+<body>
+    <!--Song list(User can take other songs as they want)-->
+    <div class="song_list">
+        <button class="song_" id="but1">
+            <div class="song1_img"></div>
+            <div class="song-1_name">Main Dhoondne ko Zamaane mein </div>
+        </button>
+        <button class="song_" id="but2">
+            <div class="song2_img"></div>
+            <div class="song-2_name">Brown Rang</div>
+        </button>
+        <button class="song_" id="but3">
+            <div class="song3_img"></div>
+            <div class="song-3_name">Ride It</div>
+        </button>
+        <button class="song_" id="but4">
+            <div class="song4_img"></div>
+            <div class="song-4_name">Dheere Dheere</div>
+        </button>
+        <button class="song_" id="but5">
+            <div class="song5_img"></div>
+            <div class="song-5_name">Ishq</div>
+        </button>
+    </div>
+    <!--Setting the song picture and details related to songs-->
+    <div class="song_play">
+        <div class="song-picture">
+            <img id="song-pic" src="random.jpg"/>
+        </div>
+        <div class="song-details">
+            Song:<span id="songs"></span><br/>
+            Singer:<span id="singer"></span> <br/>
+            Lyrics:<span id="lyrics"></span><br/>
+            Composer:<span id="composer"></span><br/>
+            Label:<span id="label"></span><br/>
+        </div>
+        <!--Loading the audio file-->
+        <div class="audio">
+            <audio id="audio" src="random.mp3"></audio>
+        </div>
+        <!--Creating the Volume buttons-->
+        <div class="volume">
+            <button id="vol_up">Vol +</button>
+            <button id="vol_down">Vol -</button>
+        </div>
+        <!--Progress Bar-->
+        <div class="slider">
+            <input type="range" id="progress" value="0" min="0" max="100" step="1"/>
+        </div>
+        <!--Buttons for play,pause,10s back and 10s forward.-->
+        <div class="controls">
+            <button class='ctrl' id="backwards"><<10 sec</button>
+            <button class='ctrl' id="Play">Play</button>
+            <button class='ctrl' id="Pause">Pause</button>
+            <button class='ctrl' id="forwards">10 sec>></button>
+        </div>
+    </div>
+    <script src="mp.js"></script>
+</body>  
+</html>
